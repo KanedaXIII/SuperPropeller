@@ -1,0 +1,76 @@
+{
+    "name": "ControlsConfig",
+    "maps": [
+        {
+            "name": "Mobile phone",
+            "id": "f8716b33-eae4-42bb-95ab-e35c29ce6488",
+            "actions": [
+                {
+                    "name": "Switch Direction",
+                    "type": "Button",
+                    "id": "4318b21b-bf85-4be0-b292-eef84e001ab3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Switch Color",
+                    "type": "Button",
+                    "id": "704c3caa-4bfa-49a5-aabb-75089e8f17b2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fe78dc5d-19c9-4b8b-a595-b1e694ff4c30",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Direction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "871fd844-5d46-43f3-8957-a208126acfb9",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Direction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b719161-d34b-494e-901e-30bd8e2bad7d",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "840f990e-4507-4c14-a421-5f1964b0a4df",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
